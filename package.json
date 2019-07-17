@@ -1,0 +1,18 @@
+{
+  "name": "@quenk/tendril-show-nunjucks",
+  "private": "true",
+  "version": "0.0.1",
+  "description": "Provides a tendril show function that uses nunjucks.",
+  "main": "lib/index.js",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "@quenk/noni": "^1.26.0",
+    "@quenk/tendril": "^0.31.5",
+    "nunjucks": "^3.2.0"
+  },
+  "devDependencies": {
+    "@types/nunjucks": "^3.1.1",
+    "typedoc": "^0.14.2",
+    "typescript": "^3.5.3"
+  }
+}
