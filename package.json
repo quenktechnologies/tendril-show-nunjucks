@@ -1,6 +1,5 @@
 {
   "name": "@quenk/tendril-show-nunjucks",
-  "private": "true",
   "version": "0.0.1",
   "description": "Provides a tendril show function that uses nunjucks.",
   "main": "lib/index.js",
