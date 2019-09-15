@@ -28,13 +28,14 @@ export const show = (options: Options): Show =>
         let opts: Options = merge(<any>defaultOpts, options);
         let env = nunjucks.configure(opts.path, opts);
 
-        return fromCallback(cb => env.render(view, ctx, (e: Error, content: string) => {
+        return fromCallback(cb => env.render(view, ctx,
+            (e: Error | null, content: string | null) => {
 
-            if (e)
-                return cb(e);
+                if (e)
+                    return cb(e);
 
-            return cb(undefined, <Content>{ type: 'text/html', content });
+                return cb(undefined, <Content>{ type: 'text/html', content });
 
-        }));
+            }));
 
     }
