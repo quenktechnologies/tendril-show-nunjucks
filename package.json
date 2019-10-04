@@ -5,12 +5,12 @@
   "main": "lib/index.js",
   "license": "Apache-2.0",
   "dependencies": {
-    "@quenk/noni": "^1.31.2",
-    "@quenk/tendril": "^0.31.5",
+    "@quenk/noni": "^1.33.0",
+    "@quenk/tendril": "^0.31.6",
     "nunjucks": "^3.2.0"
   },
   "devDependencies": {
-    "@types/node": "^12.7.5",
+    "@types/node": "^12.7.11",
     "@types/nunjucks": "^3.1.2",
     "typedoc": "^0.15.0",
     "typescript": "^3.6.3"
